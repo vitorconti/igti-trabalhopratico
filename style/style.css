@@ -1,0 +1,50 @@
+.Red {
+  color: red;
+  font-weight: bold;
+}
+.Green {
+  color: green;
+  font-weight: bold;
+}
+.Blue {
+  color: blue;
+  font-weight: bold;
+}
+.divContext {
+  width: 600px;
+  height: 500px;
+  margin-bottom: 10px;
+  border-color: grey;
+  border-style: ridge;
+  box-shadow: 5px 5px #888888;
+}
+.divInside {
+  float: inherit;
+  margin: 15px;
+  display: flex;
+}
+.labelRange {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-right: 5px;
+  display: block;
+  padding: 10px;
+}
+.ul {
+  list-style: none;
+}
+.inputRange {
+  margin-bottom: 5px;
+}
+.inputTextReadOnly {
+  width: 40px;
+  display: inline;
+}
+.colorChanged {
+  width: 150px;
+  height: 150px;
+  margin-left: 200px;
+  border-color: black;
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+}

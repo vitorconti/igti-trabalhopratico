@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seletor de cores RGB</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <h1>
+      Seletor de cores <span class="Red">R</span> <span class="Green">G</span>
+      <span class="Blue">B</span>
+    </h1>
+    <div class="divContext">
+      <div class="divInside">
+        <ul class="ul">
+          <li>
+            <label class="labelRange" for="red">(R) Vermelho </label>
+            <input
+              class="inputRange"
+              value="0"
+              type="range"
+              id="red"
+              name="redInput"
+              min="0"
+              max="255"
+              id="inputRangeRed"
+            />
+            <input
+              class="inputTextReadOnly"
+              value="0"
+              type="text"
+              readonly
+              name="redValue"
+              id="redValue"
+            />
+          </li>
+          <li>
+            <label class="labelRange" for="green">(G) Verde </label>
+            <input
+              class="inputRange"
+              value="0"
+              type="range"
+              id="green"
+              name="greenInput"
+              min="0"
+              max="255"
+              id="inputRangeGreen"
+            />
+            <input
+              class="inputTextReadOnly"
+              value="0"
+              type="text"
+              readonly
+              name="greenValue"
+              id="greenValue"
+            />
+          </li>
+          <li>
+            <label class="labelRange" for="blue">(B) Blue </label>
+            <input
+              value="0"
+              type="range"
+              id="blue"
+              name="blueInput"
+              min="0"
+              max="255"
+              id="inputRangeBlue"
+            />
+            <input
+              class="inputTextReadOnly"
+              value="0"
+              type="text"
+              readonly
+              name="blueValue"
+              id="blueValue"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="colorChanged" id="colorChanged"></div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
